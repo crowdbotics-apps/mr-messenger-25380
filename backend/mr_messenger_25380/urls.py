@@ -41,9 +41,9 @@ urlpatterns = [
     path("home/", include("home.urls")),
 ]
 
-admin.site.site_header = "MR Messenger"
-admin.site.site_title = "MR Messenger Admin Portal"
-admin.site.index_title = "MR Messenger Admin"
+admin.site.site_header = "MRasif Messenger"
+admin.site.site_title = "MRasif Messenger Admin Portal"
+admin.site.index_title = "MRasif Messenger Admin"
 
 # swagger
 api_info = openapi.Info(
